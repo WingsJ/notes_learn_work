@@ -1,0 +1,6 @@
+React Hooks
+	useState钩子，用于函数组件添加React状态，类组件不能用
+	hooks只能写在函数组件
+	
+	类组件 constructor 声明state的初始
+	函数组件 不能使用this
