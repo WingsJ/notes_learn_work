@@ -1,6 +1,19 @@
 React Hooks
-	useState¹³×Ó£¬ÓÃÓÚº¯Êı×é¼şÌí¼ÓReact×´Ì¬£¬Àà×é¼ş²»ÄÜÓÃ
-	hooksÖ»ÄÜĞ´ÔÚº¯Êı×é¼ş
+	useStateé’©å­ï¼Œç”¨äºå‡½æ•°ç»„ä»¶æ·»åŠ ReactçŠ¶æ€ï¼Œç±»ç»„ä»¶ä¸èƒ½ç”¨
+	hooksåªèƒ½å†™åœ¨å‡½æ•°ç»„ä»¶
 	
-	Àà×é¼ş constructor ÉùÃ÷stateµÄ³õÊ¼
-	º¯Êı×é¼ş ²»ÄÜÊ¹ÓÃthis
+	ç±»ç»„ä»¶ constructor å£°æ˜stateçš„åˆå§‹
+	constructor(props) {
+	    super(props);
+	    this.state = {
+	      count: 0
+	    };
+	  }
+	å‡½æ•°ç»„ä»¶ ä¸èƒ½ä½¿ç”¨thisï¼Œstateåˆå§‹åŒ– ç›´æ¥å†™å…¥useStateï¼ˆï¼‰
+	const [count, setCount] = useState(0)
+	
+	
+
+
+
+
