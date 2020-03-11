@@ -9,11 +9,8 @@ React Hooks
 	      count: 0
 	    };
 	  }
-	函数组件 不能使用this，state初始化 直接写入useState（）
-	const [count, setCount] = useState(0)
+	函数组件 不能使用this，state初始化 直接写入useState（）状态变量
+	const [count, setCount] = useState(0) 
 	
-	
-
-
-
-
+	useState（）returns a pair (返回一个包含两个项的数组) 
+	第一项是当前值，第二项是更新它的函数
