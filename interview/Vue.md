@@ -52,3 +52,12 @@ Vue面经
         provide / inject 适用于 隔代组件通信
 
         Vuex 适用于 父子、隔代、兄弟组件通信
+    
+    vue-router 路由模式有几种？
+        vue-router 有 3 种路由模式：hash、history、abstract，对应的源码如下所示：
+
+        hash:  使用 URL hash 值来作路由。支持所有浏览器，包括不支持 HTML5 History Api 的浏览器；
+
+        history :  依赖 HTML5 History API 和服务器配置。具体可以查看 HTML5 History 模式；
+
+        abstract :  支持所有 JavaScript 运行环境，如 Node.js 服务器端。如果发现没有浏览器的 API，路由会自动强制进入这个模式.

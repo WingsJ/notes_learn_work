@@ -1,4 +1,6 @@
 webpack
+    entry
+    output
     Loader与Plugin的区别
         Loader 本质就是一个函数，在该函数中对接收到的内容进行转换，返回转换后的结果。 因为 Webpack 只认识 JavaScript，所以 Loader 就成了翻译官，对其他类型的资源进行转译的预处理工作。
 
