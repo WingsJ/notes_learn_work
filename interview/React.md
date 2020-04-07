@@ -24,5 +24,5 @@ React面经
         非嵌套组件间通信,利用二者共同父组件的 context 对象进行通信
 
     React中函数组件和类组件的区别
-       函数组件没有this,没有生命周期，没有状态state,(useState)
+       函数组件没有this,没有生命周期，没有状态state,(useState,useEffect)
 　　    类组件有this,有生命周期，有状态state。
