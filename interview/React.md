@@ -25,4 +25,4 @@ React面经
 
     React中函数组件和类组件的区别
        函数组件没有this,没有生命周期，没有状态state,(useState,useEffect)
-　　    类组件有this,有生命周期，有状态state.
+　　    类组件有this,有生命周期，有状态state
