@@ -60,4 +60,4 @@ Vue面经
 
         history :  依赖 HTML5 History API 和服务器配置。具体可以查看 HTML5 History 模式；
 
-        abstract :  支持所有 JavaScript 运行环境，如 Node.js 服务器端。如果发现没有浏览器的 API，路由会自动强制进入这个模式.
+        abstract :  支持所有 JavaScript 运行环境，如 Node.js 服务器端。如果发现没有浏览器的 API，路由会自动强制进入这个模式
