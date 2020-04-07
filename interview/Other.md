@@ -53,3 +53,6 @@ Cookie localStorage sessionStorage区别
 虚拟DOM工作原理
     用javascript对象表示virtual node(VNode)，根据VNode 计算出真实DOM需要做的最小变动，然后再操作真实DOM节点，提高渲染效率。
     高效的diff算法能够保证进行对实际的DOM进行最小的变动
+
+ES6 --> ES5
+    babel-loader {'parsets':['es2015']}
