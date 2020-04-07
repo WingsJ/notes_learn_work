@@ -46,3 +46,10 @@ Cookie localStorage sessionStorage区别
         cookie 跨域
             Axios withCredentials设置为true
             Fetch credentials设置为include
+
+防抖 在执行事件,如果一定时间之内又触发,重新开始执行
+节流 每隔一段时间执行一次
+
+虚拟DOM工作原理
+    用javascript对象表示virtual node(VNode)，根据VNode 计算出真实DOM需要做的最小变动，然后再操作真实DOM节点，提高渲染效率。
+    高效的diff算法能够保证进行对实际的DOM进行最小的变动。
