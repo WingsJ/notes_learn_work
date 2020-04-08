@@ -49,4 +49,4 @@ React面经
         redux-saga
             saga会监听action并基于这个action执行Effects操作
             Effects提供灵活的API，包括阻塞、非阻塞调用，取消、等待、race等操作
-            方便隔离并执行异步操作，并易于测试
+            方便隔离并执行异步操作，并易于测试 
