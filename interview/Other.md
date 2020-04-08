@@ -56,3 +56,7 @@ Cookie localStorage sessionStorage区别
 
 ES6 --> ES5
     babel-loader {'parsets':['es2015']}
+
+promise的链式调用
+    使用then方法之后会返回一个promise对象，可以继续用then方法调用，再次调用所获取的参数是上个then方法return的内容
+
