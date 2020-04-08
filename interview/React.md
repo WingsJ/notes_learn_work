@@ -1,3 +1,4 @@
+
 React面经
     React的生命周期
         componentWillMount 在渲染前调用,在客户端也在服务端。
@@ -26,3 +27,26 @@ React面经
     React中函数组件和类组件的区别
        函数组件没有this,没有生命周期，没有状态state,(useState,useEffect)
 　　    类组件有this,有生命周期，有状态state
+
+    setState是同步还是异步？
+        在组件生命周期中或者react事件绑定中，setState是通过异步更新的。
+        在延时的回调或者原生事件绑定的回调中调用setState不一定是异步的。
+    
+    react高阶组件
+        高阶组件只是一个包装了另外一个 React 组件的 React 组件。
+
+        代码复用，逻辑抽象，抽离底层准备（bootstrap）代码
+        渲染劫持
+        State 抽象和更改
+        Props 更改
+
+        
+    redux处理异步的中间件
+        redux-thunk
+            redux-thunk中间件允许action是一个方法
+            中间件收到action后会执行action方法并将结果提供给reducer
+            action混乱导致不易维护
+        redux-saga
+            saga会监听action并基于这个action执行Effects操作
+            Effects提供灵活的API，包括阻塞、非阻塞调用，取消、等待、race等操作
+            方便隔离并执行异步操作，并易于测试
